@@ -1,0 +1,34 @@
+[2025-12-15 15:49:45] ===========================================
+[2025-12-15 15:49:45] 🚀 GasPro Email Auto-Reply Service Started
+[2025-12-15 15:49:45] ===========================================
+[2025-12-15 15:49:45] Mode: PRODUCTION
+[2025-12-15 15:49:45] Check interval: 60 seconds
+[2025-12-15 15:49:45] Timezone: Asia/Jakarta
+[2025-12-15 15:49:45] Active hours: 16:00 - 17:00 WIB
+[2025-12-15 15:49:45] ===========================================
+
+[2025-12-15 15:49:45] Auto-reply inactive (outside active hours)
+[2025-12-15 15:50:45] Auto-reply inactive (outside active hours)
+[2025-12-15 15:51:45] Auto-reply inactive (outside active hours)
+[2025-12-15 15:52:45] Auto-reply inactive (outside active hours)
+[2025-12-15 15:53:45] Auto-reply inactive (outside active hours)
+[2025-12-15 15:54:45] Auto-reply inactive (outside active hours)
+[2025-12-15 15:55:45] Auto-reply inactive (outside active hours)
+[2025-12-15 15:56:45] Auto-reply inactive (outside active hours)
+[2025-12-15 15:57:45] Auto-reply inactive (outside active hours)
+[2025-12-15 15:58:45] Auto-reply inactive (outside active hours)
+[2025-12-15 15:59:45] Auto-reply inactive (outside active hours)
+[2025-12-15 16:00:48] Found 1 new email(s) to process
+[2025-12-15 16:00:48] Email UID: 86
+[2025-12-15 16:01:12]   ✓ Auto-reply sent successfully to: ewinccm@gmail.com
+[2025-12-15 16:01:13]   ✓ Email marked as Seen and Answered
+[2025-12-15 16:01:13] 
+--- Auto-reply cycle completed ---
+
+[2025-12-15 16:05:47] Found 1 new email(s) to process
+[2025-12-15 16:05:47] Email UID: 88
+[2025-12-15 16:06:07]   ✓ Auto-reply sent successfully to: edwin@dm.adhiganacorp.com
+[2025-12-15 16:06:07]   ✓ Email marked as Seen and Answered
+[2025-12-15 16:06:07] 
+--- Auto-reply cycle completed ---
+
