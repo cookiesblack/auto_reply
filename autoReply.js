@@ -57,10 +57,11 @@ const TIMEZONE = 'Asia/Jakarta';
 async function autoReply() {
     const now = dayjs().tz(TIMEZONE);
     const hour = now.hour();
-    const isNightTime = hour >= HOUR_START || hour < HOUR_END;
 
-    if (!DEBUG_MODE && !isNightTime) {
-        console.log(`[${now.format('YYYY-MM-DD HH:mm:ss')}] Auto-reply inactive (working hours)`);
+    const isActive = hour >= HOUR_START && hour < HOUR_END;
+
+    if (!isActive) {
+        console.log(`[${now.format('YYYY-MM-DD HH:mm:ss')}] Auto-reply inactive (outside active hours)`);
         return;
     }
 
