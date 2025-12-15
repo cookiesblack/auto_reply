@@ -259,5 +259,5 @@ console.log('===========================================');
 console.log(`Mode: ${DEBUG_MODE ? 'DEBUG' : 'PRODUCTION'}`);
 console.log(`Check interval: ${CHECK_INTERVAL / 1000} seconds`);
 console.log(`Timezone: ${TIMEZONE}`);
-console.log(`Active hours: 17:00 - 08:00 WIB`);
+console.log(`Active hours: ${HOUR_START}:00 - ${HOUR_END}:00 WIB`);
 console.log('===========================================\n');
