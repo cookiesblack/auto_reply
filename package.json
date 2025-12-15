@@ -1,0 +1,26 @@
+{
+  "name": "autoreply",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Auto-reply email service for GasPro Detection",
+  "main": "autoReply.js",
+  "scripts": {
+    "start": "nodemon autoReply.js",
+    "dev": "node autoReply.js"
+  },
+  "keywords": [
+    "email",
+    "auto-reply",
+    "imap",
+    "smtp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.0",
+    "dotenv": "^17.2.3",
+    "imap-simple": "^5.1.0",
+    "mailparser": "^3.6.0",
+    "nodemailer": "^6.9.0"
+  }
+}
