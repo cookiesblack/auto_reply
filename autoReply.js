@@ -50,7 +50,7 @@ const SMTP_CONFIG = {
     }
 };
 
-const DEBUG_MODE = process.env.DEBUG_MODE ?? true;
+const DEBUG_MODE = process.env.DEBUG_MODE === 'true' || false;
 
 const TIMEZONE = 'Asia/Jakarta';
 
